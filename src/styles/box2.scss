@@ -1,6 +1,9 @@
 .Box2{
     width: 400px;
-    height:300px;
-    background-color: yellowgreen;
+    height:400px;
+    background-image:url(../images/best.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     position: absolute;
 }

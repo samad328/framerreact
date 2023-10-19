@@ -2,6 +2,7 @@ import {useState,useRef} from 'react'
 import {motion} from 'framer-motion'
 
 import '../styles/box2.scss'
+import image from '../images/best.png';
 function Box2(props) {
 
 
@@ -11,8 +12,13 @@ function Box2(props) {
     drag
     dragConstraints={props.parent}
     dragMomentum={true}
-dragTransition={{ timeConstant: 1000, power: 0.1 }} 
-    >Box2</motion.div>
+    dragTransition={{ timeConstant: 1000, power: 0.1 }} 
+    >
+
+
+
+
+    </motion.div>
   )
 }
 
